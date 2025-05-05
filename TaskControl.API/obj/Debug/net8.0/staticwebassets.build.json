@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ArdsmRdQhsahH4WDsIJlguVhOw0vrg5kR43rZ18+u6c=",
+  "Source": "TaskControl.API",
+  "BasePath": "_content/TaskControl.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

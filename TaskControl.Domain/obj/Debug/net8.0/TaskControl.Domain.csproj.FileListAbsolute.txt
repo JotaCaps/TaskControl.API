@@ -1,0 +1,12 @@
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\bin\Debug\net8.0\TaskControl.Domain.deps.json
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\bin\Debug\net8.0\TaskControl.Domain.dll
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\bin\Debug\net8.0\TaskControl.Domain.pdb
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\obj\Debug\net8.0\TaskControl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\obj\Debug\net8.0\TaskControl.Domain.AssemblyInfoInputs.cache
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\obj\Debug\net8.0\TaskControl.Domain.AssemblyInfo.cs
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\obj\Debug\net8.0\TaskControl.Domain.csproj.CoreCompileInputs.cache
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\obj\Debug\net8.0\TaskControl.Domain.sourcelink.json
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\obj\Debug\net8.0\TaskControl.Domain.dll
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\obj\Debug\net8.0\refint\TaskControl.Domain.dll
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\obj\Debug\net8.0\TaskControl.Domain.pdb
+C:\Estudos\.Net\TaskControl.API\TaskControl.Domain\obj\Debug\net8.0\ref\TaskControl.Domain.dll

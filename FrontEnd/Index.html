@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Gerenciar Tarefas</h1>
+
+        <div class="method-buttons">
+            <button id="createBtn">Criar Tarefa</button>
+            <button id="updateBtn">Atualizar</button>
+            <button id="deleteBtn">Excluir Tarefa</button>
+            <button id="getBtn">Buscar Tarefa por ID</button>
+            <button id="getAllBtn">Listar Tarefas</button>
+            <button id="filterTasksBtn">Filtrar Tarefas</button>
+        </div>
+
+        <form id="CreateTaskForm" style="display:none;">
+            <div class="form-group">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required maxlength="100">
+            </div>
+
+            <div class="form-group">
+                <label for="descricao">Descrição:</label>
+                <input type="text" id="descricao" name="descricao" maxlength="250">
+            </div>
+
+            <div class="form-group">
+                <label for="status">Status:</label>
+                <select id="status" name="status" required>
+                    <option value="0">Pendente</option>
+                    <option value="1">Em Progresso</option>
+                    <option value="2">Concluída</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="dataDeConclusao">Data de Conclusão:</label>
+                <input type="datetime-local" id="dataDeConclusao" name="dataDeConclusao">
+            </div>
+
+            <button type="submit">Criar Tarefa</button>
+
+            <div id="createFeedback" style="display: none;"></div>
+        </form>
+
+        <form id="updateTaskForm" style="display:none;">
+            <div class="form-group">
+                <label for="updateTaskId">Id:</label>
+                <input type="number" name="updateTaskId" id="updateTaskId"required>
+            </div>
+            
+            <div class="form-group">
+                <label for="updateTitulo">Título:</label>
+                <input type="text" name="updateTitulo" id="updateTitulo"  required>
+            </div>
+            
+            <div class="form-group">
+                <label for="updateDescricao">Descrição:</label>
+            <input type="text" name="updateDescricao" id="updateDescricao" >
+            </div>
+            
+            <div class="form-group">
+                <label for="updateDataDeConclusao">Data de Conclusão:</label>
+            <input type="datetime-local" name="updateDataDeConclusao" id="updateDataDeConclusao">
+            </div>
+
+            <div class="form-group">
+                <label for="updateStatus">Status:</label>
+                <select id="updateStatus" name="updateStatus" required>
+                    <option value="0">Pendente</option>
+                    <option value="1">Em Progresso</option>
+                    <option value="2">Concluída</option>
+                </select>
+            </div>
+
+            <button type="submit">Atualizar Tarefa</button>
+
+            <div id="updateFeedback" style="display: none;"></div>
+        </form>
+
+        <form id="deleteTaskForm" style="display:none;">
+            <div class="form-group">
+                <label for="DeleteTaskId">Id:</label>
+                <input type="number" id="DeleteTaskId" placeholder="ID da Tarefa" required>
+            </div>
+            <button type="submit">Excluir Tarefa</button>
+
+            <div id="deleteFeedback" style="display: none;"></div>
+        </form>
+
+        <form id="getTaskForm" style="display:none;">
+            <div class="form-group">
+                <label for="GetTaskById">Id:</label>
+                <input type="number" id="GetTaskById" placeholder="ID da Tarefa" required>
+            </div>
+            <button id="getTaskByIdButton" type="submit">Buscar Tarefa</button>
+
+            <div id="GetByIdFeedback" style="display: none;"></div>
+            <div id="taskDetails"></div>
+        </form>
+
+        <form id="getAllTaskForm" style="display:none;">
+            <div id="AllTasksDetails"></div>
+        </form>
+
+        <div id="filterTasksForm" style="display: none;">
+            <label for="statusFilter">Filtrar por Status:</label>
+            <select id="statusFilter">
+                <option value="">Todos</option>
+                <option value="Pendente">Pendente</option>
+                <option value="EmProgresso">Em Progresso</option>
+                <option value="Concluída">Concluída</option>
+            </select>
+            <button id="filterBtn">Filtrar</button>
+        </div>
+        <div id="tasksList">
+            </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
