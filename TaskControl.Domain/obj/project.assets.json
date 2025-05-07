@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Estudos\\.Net\\TaskControl.API\\TaskControl.Domain\\TaskControl.Domain.csproj",
+      "projectUniqueName": "C:\\Estudos\\TaskControl.API\\TaskControl.Domain\\TaskControl.Domain.csproj",
       "projectName": "TaskControl.Domain",
-      "projectPath": "C:\\Estudos\\.Net\\TaskControl.API\\TaskControl.Domain\\TaskControl.Domain.csproj",
+      "projectPath": "C:\\Estudos\\TaskControl.API\\TaskControl.Domain\\TaskControl.Domain.csproj",
       "packagesPath": "C:\\Users\\joaos\\.nuget\\packages\\",
-      "outputPath": "C:\\Estudos\\.Net\\TaskControl.API\\TaskControl.Domain\\obj\\",
+      "outputPath": "C:\\Estudos\\TaskControl.API\\TaskControl.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

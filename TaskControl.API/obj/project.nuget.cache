@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YjXsFkg5htM=",
+  "dgSpecHash": "zTowyt5i7O4=",
   "success": true,
-  "projectFilePath": "C:\\Estudos\\.Net\\TaskControl.API\\TaskControl.API\\TaskControl.API.csproj",
+  "projectFilePath": "C:\\Estudos\\TaskControl.API\\TaskControl.API\\TaskControl.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaos\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\joaos\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
