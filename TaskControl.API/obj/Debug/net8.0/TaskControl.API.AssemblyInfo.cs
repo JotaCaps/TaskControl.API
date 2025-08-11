@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskControl.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dee1feab1a89c8ef7605de728da74284313a25c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd1d9cb380dbd56e981c1052f635bc924e3c237b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskControl.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskControl.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
